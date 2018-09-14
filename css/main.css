@@ -8,13 +8,9 @@ body {
     border-bottom-right-radius: 15px;
 }
 
-.navbar-nav {
-    font-size: 1em;
-    margin-right: 4rem;
-}
-
 .nav-link {
     margin-left: 0.6em;
+    font-size: 15px;
     color: white !important;
     text-transform: uppercase;
     letter-spacing: 2px;
