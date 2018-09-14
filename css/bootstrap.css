@@ -240,6 +240,15 @@ button {
   border-radius: 0;
 }
 
+#buttonblue {
+  color: white;
+  background-color: #16586b;
+}
+
+.wrapper {
+    text-align: center;
+}
+
 button:focus {
   outline: 1px dotted;
   outline: 5px auto -webkit-focus-ring-color;
