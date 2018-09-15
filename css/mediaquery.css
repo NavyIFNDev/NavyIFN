@@ -9,3 +9,9 @@
         padding-top: 130px;
     }
 }
+
+@media (max-height: 1200px) {
+    .loginform {
+        padding-top: 150px;
+    }
+}
