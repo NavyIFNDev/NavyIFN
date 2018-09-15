@@ -6,11 +6,12 @@ If you need something type it in requests. (tag us in discord if really needed)
 
 # TO-DO:
 -[]Finish the main PAGE. [MAKING-LIST]
--[]Start making the login for officers panel.
+-[]Start making the login for officers panel. [MAKING-LIST]
 -[]Start making the sub-pages for the websites.
 -[]Remake the roster.
 # MAKING-LIST:
 -[]Finish the main PAGE. [PSYCHO] (HALF WAY). 
+-[]Start making the login for officers panel. [MARIUS].
 
 
 # REQUESTS:
