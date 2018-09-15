@@ -10,6 +10,15 @@ body{
   padding: 8% 0 0;
   margin: auto;
 }
+
+::placeholder {
+  color: white;
+}
+
+input, select, textarea {
+color: white;
+}
+
 .form {
   position: relative;
   z-index: 1;
