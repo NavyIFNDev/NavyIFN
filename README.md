@@ -1,2 +1,2 @@
 # NavyIFN
-First step: make the folder and start to orginize everything.
+First step: make the folder and start to orginize everything. [DONE]
