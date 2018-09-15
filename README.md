@@ -9,7 +9,8 @@
 
 ## MAKING-LIST:
 - Finish the main PAGE. **[PSYCHO] (HALF WAY).**
-- Start making the login for officers panel. **[MARIUS].**
+- Start making the login for officers panel. **[MARIUS] [Will continue when we have databases]**
+- Start making the sub-pages for the websites. **[MARIUS]**
 
 ## REQUESTS:
 - Need some PICTURES for the Discover and start. **[PSYCHO]**
