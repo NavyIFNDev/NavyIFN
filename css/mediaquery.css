@@ -3,3 +3,9 @@
         font-size: 12px;
     }
 }
+
+@media only screen and (max-height: 700px) {
+    .textMove {
+        padding-top: 130px;
+    }
+}
