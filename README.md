@@ -10,7 +10,8 @@ If you need something type it in requests. (tag us in discord if really needed)
 -[ ]Start making the sub-pages for the websites.
 -[ ]Remake the roster.
 # MAKING-LIST:
--[ ]Finish the main PAGE. [PSYCHO] (HALF WAY). 
+-[ ]Finish the main PAGE. [PSYCHO] (HALF WAY).
+-[ ]Start making the login for officers panel. [Marius]
 
 
 # REQUESTS:
