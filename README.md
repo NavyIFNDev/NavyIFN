@@ -4,7 +4,7 @@
 ## TO-DO:
 - Finish the main PAGE. **[MAKING-LIST]**
 - Start making the login for officers panel. **[MAKING-LIST]**
-- Start making the sub-pages for the websites.
+- Start making the sub-pages for the websites. **[MAKING-LIST]**
 - Remake the roster.
 
 ## MAKING-LIST:
