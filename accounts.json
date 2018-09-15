@@ -1,0 +1,15 @@
+{
+    "accountID": 1,
+    "info": [
+        {
+            "username": "Psycho",
+            "password": "123",
+            "rank": "LTJG"
+        },
+        {
+            "username": "Marius",
+            "password": "123",
+            "rank": "CPT"
+        }
+    ]
+}
