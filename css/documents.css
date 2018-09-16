@@ -1,0 +1,14 @@
+body {
+  color: white;
+  padding: auto;
+}
+
+h1 {
+  color: white;
+}
+
+.cont {
+  align-items: center;
+  padding-top: 300px;
+  text-align: center;
+}
