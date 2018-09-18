@@ -48,7 +48,8 @@ body {
     right:0;
     width: 50%;
     height: 100%;
-    background-color: red;
+    background: url("../images/NavyFlag.jpg") 0 0 no-repeat;
+    overflow: hidden;
 }
 
 .textMove {
@@ -108,10 +109,11 @@ body {
 
 .start-info-button a {
     text-decoration: none;
-    color: white;
-    background-color: lightblue;
+    color: black;
+    background-color: white;
     padding: 10px;
     border-bottom-right-radius: 15px;
+    transition: all 0.2s ease-in-out;
 }
 
 .discover-info-button {
@@ -146,6 +148,25 @@ body {
 }
 
 .backgroundImage-discover:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: black;
+}
+
+.backgroundImage-start {
+    background-color: rgba( 48, 76, 146, 0.6);
+    overflow: hidden;
+    z-index: 2;
+    height: 100%;
+    transition: all 0.2s ease-in-out;
+    color: white;
+}
+
+.backgroundImage-start:hover .start-info-button a{
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+}
+
+.backgroundImage-start:hover {
     background-color: rgba(255, 255, 255, 0.4);
     color: black;
 }
