@@ -74,3 +74,10 @@
         padding-top: 150px;
     }
 }
+
+
+@media (min-width: 1980px) {
+    .discover {
+        background-size: 100%;
+    }
+}
