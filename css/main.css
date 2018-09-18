@@ -40,7 +40,8 @@ body {
     left:0;
     width: 50%;
     height: 100%;
-    background-color: lightblue;
+    background: url("../images/NavyBreach.jpg") 0 0 no-repeat fixed;
+    overflow: hidden;
 }
 .start {
     position: absolute;
@@ -127,5 +128,24 @@ body {
     background-color: white;
     padding: 10px;
     border-bottom-right-radius: 15px;
+    transition: all 0.2s ease-in-out;
 }
 
+.backgroundImage-discover {
+    background-color: rgba( 48, 67,114,0.6);
+    overflow: hidden;
+    z-index: 2;
+    height: 100%;
+    transition: all 0.2s ease-in-out;
+    color: white;
+}
+
+.backgroundImage-discover:hover .discover-info-button a{
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+}
+
+.backgroundImage-discover:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: black;
+}
