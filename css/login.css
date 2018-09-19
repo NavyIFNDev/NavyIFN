@@ -75,3 +75,8 @@ color: white;
   border-bottom-right-radius: 15px;
   color: white;
 }
+
+#loggedin {
+  color: white;
+  align-items: center;
+}

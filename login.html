@@ -21,6 +21,7 @@
         <a class="nav-item nav-link buttonStyle" href="roster.html">Roster</a>
         <a class="nav-item nav-link buttonStyle" href="documents.html">Documents</a>
         <a class="nav-item nav-link buttonStyle" href="login.html">Login</a>
+        <div id="loggedin" style="display:none">Logged in!</div>
       </div>
     </div>
   </nav>
@@ -37,11 +38,28 @@
   <div class="login-page">
   <div class="form">
     <form class="login-form">
-      <input type="text" placeholder="Username"/>
-      <input type="password" placeholder="Password"/>
-      <button class="buttonStyle">login</button>
+      <input type="text" placeholder="Username" name="userid"/>
+      <input type="password" placeholder="Password" name="password"/>
+      <button type="button" onclick="check(this.form)" class="buttonStyle">login</button>
     </form>
+
+    <script language="javascript">
+    function check(form)
+    {
+
+     if(form.userid.value == "marius" && form.password.value == "marius123")
+      {
+        document.getElementById('loggedin').style.display = ""
+      }
+     else
+     {
+       alert("Wrong password")
+       document.getElementById('loggedin').style.display = "none"
+      }
+    }
+    </script>
   </div>
+</div>
 </div>
 </div>
   <!-- Bootstrap javascript - DON'T DELETE -->
