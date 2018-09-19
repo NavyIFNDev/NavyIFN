@@ -26,42 +26,26 @@
     </div>
   </nav>
 
-  <div class="waves">
-    <div class="wave wave_1"></div>
-		    <div class="wave wave_2"></div>
-		    <div class="wave wave_3"></div>
-		    <div class="wave wave_4"></div>
-		    <div class="wave wave_5"></div>
-	</div>
-<div class="loginform"
-
+<div class="waves">
+  <div class="wave wave_1"></div>
+	<div class="wave wave_2"></div>
+	<div class="wave wave_3"></div>
+	<div class="wave wave_4"></div>
+	<div class="wave wave_5"></div>
+</div>
+  
+<div class="loginform">
   <div class="login-page">
-  <div class="form">
-    <form class="login-form">
-      <input type="text" placeholder="Username" name="userid"/>
-      <input type="password" placeholder="Password" name="password"/>
-      <button type="button" onclick="check(this.form)" class="buttonStyle">login</button>
-    </form>
-
-    <script language="javascript">
-    function check(form)
-    {
-
-     if(form.userid.value == "marius" && form.password.value == "marius123")
-      {
-        document.getElementById('loggedin').style.display = ""
-      }
-     else
-     {
-       alert("Wrong password")
-       document.getElementById('loggedin').style.display = "none"
-      }
-    }
-    </script>
+    <div class="form">
+      <form class="login-form">
+        <input type="text" placeholder="Username" name="userid"/>
+        <input type="password" placeholder="Password" name="password"/>
+        <button type="button" onclick="login(form)" class="buttonStyle">login</button>
+      </form>
+    </div>
   </div>
 </div>
-</div>
-</div>
+
   <!-- Bootstrap javascript - DON'T DELETE -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
