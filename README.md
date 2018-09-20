@@ -6,12 +6,10 @@
 - Start making the login for officers panel. **[MAKING-LIST]**
 - Start making the sub-pages for the websites. **[MAKING-LIST]**
 - Remake the roster.
-- Make ranking system with database.
-- Make officer panel.
 
 ## MAKING-LIST:
 - Finish the main PAGE. **[PSYCHO] (HALF WAY).**
-- Start making the login for officers panel. **[MARIUS] [OVER HALF WAY]**
+- Start making the login for officers panel. **[MARIUS] [Will continue when we have databases]**
 - Start making the sub-pages for the websites. **[MARIUS]**
 
 ## REQUESTS:

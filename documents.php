@@ -3,13 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Navy IFN</title>
+  <title>Navy IFN Login</title>
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="stylesheet" type="text/css" href="css/mediaquery.css">
+  <link rel="stylesheet" type="text/css" href="css/login.css">
   <link rel="stylesheet" type="text/css" href="css/waves.css">
+  <link rel="stylesheet" type="text/css" href="css/documents.css">
   <link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,400" rel="stylesheet">
-
 </head>
 <body>
 
@@ -24,50 +25,22 @@
       </div>
     </div>
   </nav>
- 
-  <div class="dsWarpper">
-      <div class="waves">
-          <div class="wave wave_1"></div>
-          <div class="wave wave_2"></div>
-          <div class="wave wave_3"></div>
-          <div class="wave wave_4"></div>
-          <div class="wave wave_5"></div>
-        </div>
-    <div class="discover">
-      <div class="backgroundImage-discover">
-        <div class="discover-info textMove">
-          <div class="discover-info-title">
-            <h1 class="reSizeTextH1">Discover<br>The<br>Navy</h1>
-          </div>
-          <div class="discover-info-p">
-            <p class="reSizeTextP"> Find out how we defend from<br>sea to stars.</p>
-          </div>
-          <div class="discover-info-button">
-            <a href="#">explore</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="start" id="sta">
-      <div class="backgroundImage-start">
-        <div class="start-info textMove">
-          <div class="start-info-title">
-            <h1 class="reSizeTextH1">Start<br>Your<br>Journey</h1>
-          </div>
-          <div class="start-info-p">
-            <p class="reSizeTextPS">Transform your life and become<br>part of something bigger.</p>
-          </div>
-          <div class="start-info-button">
-            <a href="#">begin</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <br>
+
+  <div class="waves">
+    <div class="wave wave_1"></div>
+		<div class="wave wave_2"></div>
+		<div class="wave wave_3"></div>
+		<div class="wave wave_4"></div>
+		<div class="wave wave_5"></div>
+	</div>
+
+<h1 class="cont">You don't have permission to view this page!</h1>
 
   <!-- Bootstrap javascript - DON'T DELETE -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="js/login.js"></script>
 </body>
 </html>
