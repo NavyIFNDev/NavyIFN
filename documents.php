@@ -9,6 +9,7 @@
   <link rel="stylesheet" type="text/css" href="css/mediaquery.css">
   <link rel="stylesheet" type="text/css" href="css/login.css">
   <link rel="stylesheet" type="text/css" href="css/waves.css">
+  <link rel="stylesheet" type="text/css" href="css/documents.css">
   <link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,400" rel="stylesheet">
 </head>
 <body>
@@ -21,30 +22,20 @@
         <a class="nav-item nav-link buttonStyle" href="roster.html">Roster</a>
         <a class="nav-item nav-link buttonStyle" href="documents.php">Documents</a>
         <a class="nav-item nav-link buttonStyle" href="login.php">Login</a>
-        <div id="loggedin" style="display:none">Logged in!</div>
       </div>
     </div>
   </nav>
+  <br>
 
-<div class="waves">
-  <div class="wave wave_1"></div>
-	<div class="wave wave_2"></div>
-	<div class="wave wave_3"></div>
-	<div class="wave wave_4"></div>
-	<div class="wave wave_5"></div>
-</div>
-  
-<div class="loginform">
-  <div class="login-page">
-    <div class="form">
-      <form class="login-form" method="post" action="authen_login.php">
-        <input type="text" name="user_id" id="user_id"/>
-        <input type="password" name="user_pass" id="user_pass"/>
-        <button type="submit" class="buttonStyle">login</button>
-      </form>
-    </div>
-  </div>
-</div>
+  <div class="waves">
+    <div class="wave wave_1"></div>
+		<div class="wave wave_2"></div>
+		<div class="wave wave_3"></div>
+		<div class="wave wave_4"></div>
+		<div class="wave wave_5"></div>
+	</div>
+
+<h1 class="cont">You don't have permission to view this page!</h1>
 
   <!-- Bootstrap javascript - DON'T DELETE -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
