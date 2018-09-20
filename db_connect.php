@@ -1,9 +1,14 @@
 <?php
-    $connection = mysqli_connect('localhost', 'root', '');
-    if (!$connection){
-        die("Database Connection Failed" . mysqli_error($connection));
+$servername   = "localhost";
+$database = "navyifnlogin";
+$username = "root";
+$password = "";
+
+    // Create connection
+    $conn = new mysqli($servername, $username, $password);
+    // Check connection
+    if ($conn->connect_error) {
+       die("Connection failed: " . $conn->connect_error);
     }
-    $select_db = mysqli_select_db($connection, 'navyifnlogin');
-    if (!$select_db){
-        die("Database Selection Failed" . mysqli_error($connection));
-    }
+      echo "Connected successfully";
+?>

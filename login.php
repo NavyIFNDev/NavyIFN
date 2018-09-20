@@ -1,3 +1,22 @@
+<?php
+
+  require_once('db_connect.php');
+
+  if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    if(!empty($_POST['username'])) {
+     // echo "<script type='text/javascript'>alert('Username is not empty')</script>";
+    } else {
+      echo "<script type='text/javascript'>alert('Username is empty')</script>";
+    }
+    if(!empty($_POST['password'])) {
+      //echo "<script type='text/javascript'>alert('Password is not empty')</script>";
+    } else {
+      echo "<script type='text/javascript'>alert('Password is empty')</script>";
+    }
+  }
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,7 +39,7 @@
         <a class="nav-item nav-link buttonStyle" href="index.html">Home</a>
         <a class="nav-item nav-link buttonStyle" href="roster.html">Roster</a>
         <a class="nav-item nav-link buttonStyle" href="documents.html">Documents</a>
-        <a class="nav-item nav-link buttonStyle" href="login.html">Login</a>
+        <a class="nav-item nav-link buttonStyle" href="login.php">Login</a>
         <div id="loggedin" style="display:none">Logged in!</div>
       </div>
     </div>
@@ -37,15 +56,15 @@
 <div class="loginform">
   <div class="login-page">
     <div class="form">
-      <form class="login-form">
-        <input type="text" placeholder="Username" name="userid"/>
+      <form class="login-form" method="post">
+        <input type="text" placeholder="Username" name="username"/>
         <input type="password" placeholder="Password" name="password"/>
-        <button type="button" onclick="login(form)" class="buttonStyle">login</button>
+        <input type='submit' name='Submit' value='Login' class="buttonStyle" />
       </form>
     </div>
   </div>
 </div>
-
+  
   <!-- Bootstrap javascript - DON'T DELETE -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
